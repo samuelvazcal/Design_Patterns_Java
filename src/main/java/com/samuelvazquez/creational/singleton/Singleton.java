@@ -30,9 +30,16 @@ public class Singleton {
      * @return a created new object or an existing one if it has already created
      */
     public static Singleton getInstance(String value) {
-        if(instance == null) {
-            instance = new Singleton(value);
+        //double-checked locking (DCL) to prevent race condition between multiple threads
+        Singleton result = instance;
+        if(result != null) {
+            return result;
         }
-        return instance;
+        synchronized (Singleton.class) {
+            if(instance == null) {
+                instance = new Singleton(value);
+            }
+            return instance;
+        }
     }
 }

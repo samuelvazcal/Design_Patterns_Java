@@ -1,4 +1,4 @@
-package com.samuelvazquez.builder.components;
+package com.samuelvazquez.creational.builder.components;
 
 /**
  * Just another feature of a car.

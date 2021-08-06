@@ -1,11 +1,11 @@
-package com.samuelvazquez.builder.director;
+package com.samuelvazquez.creational.builder.director;
 
-import com.samuelvazquez.builder.builders.Builder;
-import com.samuelvazquez.builder.cars.CarType;
-import com.samuelvazquez.builder.components.Engine;
-import com.samuelvazquez.builder.components.GPSNavigator;
-import com.samuelvazquez.builder.components.Transmission;
-import com.samuelvazquez.builder.components.TripComputer;
+import com.samuelvazquez.creational.builder.builders.Builder;
+import com.samuelvazquez.creational.builder.cars.CarType;
+import com.samuelvazquez.creational.builder.components.Engine;
+import com.samuelvazquez.creational.builder.components.GPSNavigator;
+import com.samuelvazquez.creational.builder.components.Transmission;
+import com.samuelvazquez.creational.builder.components.TripComputer;
 
 /**
  * Director defines the order of building steps. It works with a builder object

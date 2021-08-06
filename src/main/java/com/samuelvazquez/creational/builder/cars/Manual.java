@@ -1,9 +1,9 @@
-package com.samuelvazquez.builder.cars;
+package com.samuelvazquez.creational.builder.cars;
 
-import com.samuelvazquez.builder.components.Engine;
-import com.samuelvazquez.builder.components.GPSNavigator;
-import com.samuelvazquez.builder.components.Transmission;
-import com.samuelvazquez.builder.components.TripComputer;
+import com.samuelvazquez.creational.builder.components.Engine;
+import com.samuelvazquez.creational.builder.components.GPSNavigator;
+import com.samuelvazquez.creational.builder.components.Transmission;
+import com.samuelvazquez.creational.builder.components.TripComputer;
 
 /**
  * Car manual is another product. Note that it does not have the same ancestor

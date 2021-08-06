@@ -1,10 +1,10 @@
-package com.samuelvazquez.builder;
+package com.samuelvazquez.creational.builder;
 
-import com.samuelvazquez.builder.builders.CarBuilder;
-import com.samuelvazquez.builder.builders.CarManualBuilder;
-import com.samuelvazquez.builder.cars.Car;
-import com.samuelvazquez.builder.cars.Manual;
-import com.samuelvazquez.builder.director.Director;
+import com.samuelvazquez.creational.builder.builders.CarBuilder;
+import com.samuelvazquez.creational.builder.builders.CarManualBuilder;
+import com.samuelvazquez.creational.builder.cars.Car;
+import com.samuelvazquez.creational.builder.cars.Manual;
+import com.samuelvazquez.creational.builder.director.Director;
 
 public class Demo {
     public static void main(String[] args) {

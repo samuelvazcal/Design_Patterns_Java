@@ -1,6 +1,6 @@
-package com.samuelvazquez.builder.components;
+package com.samuelvazquez.creational.builder.components;
 
-import com.samuelvazquez.builder.cars.Car;
+import com.samuelvazquez.creational.builder.cars.Car;
 
 public class TripComputer {
     private Car car;

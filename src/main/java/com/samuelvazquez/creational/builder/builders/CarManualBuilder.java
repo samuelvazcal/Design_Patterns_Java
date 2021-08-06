@@ -1,11 +1,11 @@
-package com.samuelvazquez.builder.builders;
+package com.samuelvazquez.creational.builder.builders;
 
-import com.samuelvazquez.builder.cars.CarType;
-import com.samuelvazquez.builder.cars.Manual;
-import com.samuelvazquez.builder.components.Engine;
-import com.samuelvazquez.builder.components.GPSNavigator;
-import com.samuelvazquez.builder.components.Transmission;
-import com.samuelvazquez.builder.components.TripComputer;
+import com.samuelvazquez.creational.builder.cars.CarType;
+import com.samuelvazquez.creational.builder.cars.Manual;
+import com.samuelvazquez.creational.builder.components.Engine;
+import com.samuelvazquez.creational.builder.components.GPSNavigator;
+import com.samuelvazquez.creational.builder.components.Transmission;
+import com.samuelvazquez.creational.builder.components.TripComputer;
 
 /**
  * Unlike other creation patterns, Builder can construct unrelated products,

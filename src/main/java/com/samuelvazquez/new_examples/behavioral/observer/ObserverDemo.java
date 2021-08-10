@@ -1,5 +1,8 @@
 package com.samuelvazquez.new_examples.behavioral.observer;
 
+/**
+ * Use Subject and concrete observer objects.
+ */
 public class ObserverDemo {
     public static void main(String[] args) {
         Subject subject = new SubjectImpl();
